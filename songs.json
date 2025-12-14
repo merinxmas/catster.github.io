@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "spotify_uri": "spotify:track:6rqhFgbbKwnb9MLmUQDhG6",
+    "duration_sec": 30
+  },
+  {
+    "id": 2,
+    "spotify_uri": "spotify:track:3n3Ppam7vgaVa1iaRUc9Lp",
+    "duration_sec": 30
+  }
+]

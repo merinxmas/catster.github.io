@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #222;
+  color: #fff;
+}
+
+button {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 20px;
+}
+
+#timer {
+  font-size: 32px;
+  margin-top: 20px;
+}
