@@ -1,6 +1,8 @@
-// Llegeix paràmetres de la URL
 const params = new URLSearchParams(window.location.search);
 const songId = params.get("song");
+
+const playerDiv = document.getElementById("player");
+playerDiv.innerHTML = ""; // IMPORTANT: neteja abans
 
 if (songId) {
   const iframe = document.createElement("iframe");
@@ -8,9 +10,8 @@ if (songId) {
   iframe.width = "300";
   iframe.height = "80";
   iframe.frameBorder = "0";
-  iframe.allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
+  iframe.allow =
+    "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
 
-  document.getElementById("player").appendChild(iframe);
-} else {
-  document.body.innerHTML = "<p>No s'ha trobat cap cançó 🎧</p>";
+  playerDiv.appendChild(iframe);
 }
