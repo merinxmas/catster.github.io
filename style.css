@@ -1,3 +1,7 @@
+body {
+  background: red;
+}
+
 .spotify-container {
   position: relative;
   width: 300px;
