@@ -25,7 +25,7 @@ body {
 /* overlay base */
 .overlay {
   position: absolute;
-  background: purple;
+  background: red;
   border-radius: 16px;
   z-index: 10;
   pointer-events: none;
@@ -37,7 +37,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 70%;
+  height: 60%;
 }
 
 /* tapa info inferior (sense tapar play) */
@@ -45,7 +45,7 @@ body {
   top: 0;
   left: 0;
   width: 75%;
-  height: 100%;
+  height: 50%;
 }
 
 /* logo */
