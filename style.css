@@ -19,7 +19,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 250px;            /* ajustable */
+  height: 80%;            /* ajustable */
   background: black;
   z-index: 10;              /* CLAU */
   pointer-events: none;
