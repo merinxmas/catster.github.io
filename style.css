@@ -31,6 +31,23 @@ body {
   z-index: 10;
   pointer-events: none;
 }
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+  height: 75%;
+  border-radius: 12px;
+
+  background: purple;        /* 🔹 el requadre lila */
+
+  display: flex;             /* 🔹 per centrar el logo */
+  align-items: center;
+  justify-content: center;
+
+  z-index: 10;
+  pointer-events: none;
+}
 
 .overlay img {
   width: 60%;                /* 🔹 mida del logo */
