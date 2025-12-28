@@ -34,7 +34,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 75%;   /* 🔹 molt important */
+  height: 300px;   /* 🔹 molt important */
 }
 
 /* 🔻 tapa barra inferior, però deixa el play */
