@@ -1,17 +1,29 @@
+// Llegeix ?song=...
 const params = new URLSearchParams(window.location.search);
-const songId = params.get("song");
+const songKey = params.get("song");
 
-const playerDiv = document.getElementById("player");
-
-if (songId) {
-  const iframe = document.createElement("iframe");
-  iframe.src = `https://open.spotify.com/embed/track/${songId}?theme=0`;
-  iframe.width = "300";
-  iframe.height = "80";
-  iframe.frameBorder = "0";
-  iframe.allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
-
-  playerDiv.appendChild(iframe);
-} else {
-  playerDiv.innerHTML = "<p style='color:white'>Escaneja un QR 🎧</p>";
+// Si no hi ha paràmetre, parem
+if (!songKey) {
+  document.body.innerHTML = "<p>Cap cançó seleccionada</p>";
+  throw new Error("No song parameter");
 }
+
+// Carrega el JSON
+fetch("songs.json")
+  .then(response => response.json())
+  .then(songs => {
+    const song = songs[songKey];
+
+    if (!song) {
+      document.body.innerHTML = "<p>Cançó no trobada</p>";
+      return;
+    }
+
+    const iframe = document.createElement("iframe");
+    iframe.src = `https://open.spotify.com/embed/track/${song.spotifyId}`;
+    iframe.allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
+    iframe.frameBorder = "0";
+
+    const container = document.getElementById("player");
+    container.prepend(iframe);
+  });
