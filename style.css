@@ -20,13 +20,19 @@ body {
   left: 0;
   width: 100%;
   height: 80%;
-  background: purple;
+
+  background: purple;        /* 🔹 el requadre lila */
+
+  display: flex;             /* 🔹 per centrar el logo */
+  align-items: center;
+  justify-content: center;
+
   z-index: 10;
   pointer-events: none;
 }
 
 .overlay img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 60%;                /* 🔹 mida del logo */
+  height: auto;
+  object-fit: contain;
 }
