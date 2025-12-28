@@ -19,7 +19,8 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 120px;
+  height: 80%;
+  background: purple;
   z-index: 10;
   pointer-events: none;
 }
