@@ -1,14 +1,16 @@
-[
-  {
-    "id": 1,
-    "spotify_uri": "spotify:track:5JUXJ7nzuLjMVBhm1RRgAU",
-    "duration_sec": 30
+{
+  "1": {
+    "title": "On t'has ficat aquesta nit?",
+    "spotifyId": "07STk0CsYrCkhYalbL0bVG"
   },
-  {
-    "id": 2,
-    "spotify_uri": "spotify:track:3n3Ppam7vgaVa1iaRUc9Lp",
-    "duration_sec": 30
+  "2": {
+    "title": "Cançó B",
+    "spotifyId": "3n3Ppam7vgaVa1iaRUc9Lp"
+  },
+  "3": {
+    "title": "Cançó C",
+    "spotifyId": "1AhDOtG9vPSOmsWgNW0BEY"
   }
-]
+}
 
 
