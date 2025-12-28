@@ -1,5 +1,5 @@
 body {
-  background: red;
+  background: purple;
 }
 
 .spotify-container {
@@ -8,11 +8,19 @@ body {
   height: 380px;
 }
 
+.spotify-container iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
 .overlay {
   position: absolute;
   bottom: 0;
+  left: 0;
   width: 100%;
-  height: 120px; /* ajusta segons què vulguis tapar */
-  background-color: black; /* o transparent amb blur */
-  z-index: 10;
+  height: 120px;            /* ajustable */
+  background: black;
+  z-index: 10;              /* CLAU */
+  pointer-events: none;
 }
