@@ -25,11 +25,11 @@ body {
 /* overlay base */
 .overlay {
   position: absolute;
-  background: red;
+  background: purple;
   border-radius: 16px;
   z-index: 10;
   pointer-events: none;
-  
+
 }
 
 /* tapa info superior */
