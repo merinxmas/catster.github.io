@@ -1,7 +1,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: #6b1a6f;          /* fons lila */
+  background: skyblue;          /* fons lila */
   display: flex;
   justify-content: center;
   align-items: center;
