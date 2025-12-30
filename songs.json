@@ -1,16 +1,202 @@
-{
-  "1": {
-    "title": "On t'has ficat aquesta nit?",
-    "spotifyId": "07STk0CsYrCkhYalbL0bVG"
+[
+  {
+    "song_id": 1,
+    "spotify_id": "6TMLHiKDHkyXiTFr8EpMnD"
   },
-  "2": {
-    "title": "Cançó B",
-    "spotifyId": "3n3Ppam7vgaVa1iaRUc9Lp"
+  {
+    "song_id": 2,
+    "spotify_id": "2CzXJpFBlOg0DMP3LWa09y"
   },
-  "3": {
-    "title": "Cançó C",
-    "spotifyId": "1AhDOtG9vPSOmsWgNW0BEY"
+  {
+    "song_id": 3,
+    "spotify_id": "3QPxxHmSKtmoP7HPQhm0il"
+  },
+  {
+    "song_id": 4,
+    "spotify_id": "6Ss2hzEaDrOTh9CBuWNUrp"
+  },
+  {
+    "song_id": 5,
+    "spotify_id": "0laDZBNXfwJwfztIjIyzw5"
+  },
+  {
+    "song_id": 6,
+    "spotify_id": "0bc5LmSoDEy3DVw4T1QV5p"
+  },
+  {
+    "song_id": 7,
+    "spotify_id": "5mfMWgmvVdr2ch156IeE13"
+  },
+  {
+    "song_id": 8,
+    "spotify_id": "532JxAFc5M6g3fbLJeI3D2"
+  },
+  {
+    "song_id": 9,
+    "spotify_id": "1vzugDTXDgZCF0QQrzB5hX"
+  },
+  {
+    "song_id": 10,
+    "spotify_id": "1gPNgTsPjXD1TiM1tg6YJp"
+  },
+  {
+    "song_id": 11,
+    "spotify_id": "1vIv59y24ch5WHi36VGV6m"
+  },
+  {
+    "song_id": 12,
+    "spotify_id": "7o5pOePCS8wlnoxGPA6VHa"
+  },
+  {
+    "song_id": 13,
+    "spotify_id": "7v5ULjF1WVgd26HFPT2IAz"
+  },
+  {
+    "song_id": 14,
+    "spotify_id": "05PSmIGYiyhu3h4woxunJz"
+  },
+  {
+    "song_id": 15,
+    "spotify_id": "2nZ2shb6iuB1vzoV2mFMxf"
+  },
+  {
+    "song_id": 16,
+    "spotify_id": "6t18lS4oVhqSgPTBAB1QES"
+  },
+  {
+    "song_id": 17,
+    "spotify_id": "19zi8NkSOL6WStztlMgimZ"
+  },
+  {
+    "song_id": 18,
+    "spotify_id": "4DT0LPAOwvN8vKXsKHeRLn"
+  },
+  {
+    "song_id": 19,
+    "spotify_id": "23lNsyN6etpTmR3kN5b1YI"
+  },
+  {
+    "song_id": 20,
+    "spotify_id": "5JrtBdcpv7GRv869Rqydv7"
+  },
+  {
+    "song_id": 21,
+    "spotify_id": "54dBWgkB70BAinfPQzr1cK"
+  },
+  {
+    "song_id": 22,
+    "spotify_id": "0yKpCxm7S2QYkxbssgxmsx"
+  },
+  {
+    "song_id": 23,
+    "spotify_id": "2V58oh5emQj22lfn8xaP9I"
+  },
+  {
+    "song_id": 24,
+    "spotify_id": "1j6PO01ML6fQShsOau2QYU"
+  },
+  {
+    "song_id": 25,
+    "spotify_id": "7quCXhBK5kDV6UJ1X22Wlz"
+  },
+  {
+    "song_id": 26,
+    "spotify_id": "36yV4rgw4Gl4VCFBRCd0iM"
+  },
+  {
+    "song_id": 27,
+    "spotify_id": "05LFQKD9j8voc2eQd7o8Iy"
+  },
+  {
+    "song_id": 28,
+    "spotify_id": "5eSa3b9VY7VkBpB5Aldg5o"
+  },
+  {
+    "song_id": 29,
+    "spotify_id": "7uaHepT0DqbgN9ZXpzHAZP"
+  },
+  {
+    "song_id": 30,
+    "spotify_id": "3HlNZmYEYuxulJmV5X2Uy4"
+  },
+  {
+    "song_id": 31,
+    "spotify_id": "7mdgZksPWuKJ8JEH4Y5mps"
+  },
+  {
+    "song_id": 32,
+    "spotify_id": "465XOLqoBgiL4vk3C94oyC"
+  },
+  {
+    "song_id": 33,
+    "spotify_id": "2x7vT5Ujf6K5mJofocwSM9"
+  },
+  {
+    "song_id": 34,
+    "spotify_id": "2q6bExlGPMDD0fGJ0HSPqa"
+  },
+  {
+    "song_id": 35,
+    "spotify_id": "4fOTtzJJChv0dnN4EovqMY"
+  },
+  {
+    "song_id": 36,
+    "spotify_id": "5XuaME5BgtBlXRRAPx9Two"
+  },
+  {
+    "song_id": 37,
+    "spotify_id": "0KTSV4NdrByhWXmuTOtcgK"
+  },
+  {
+    "song_id": 38,
+    "spotify_id": "3RIXspBsYpDlRuvTyw1gDI"
+  },
+  {
+    "song_id": 39,
+    "spotify_id": "1auy7HS1dmZycznaKQCQoU"
+  },
+  {
+    "song_id": 40,
+    "spotify_id": "0YfRNYvmfsQCUP8PMPm7Dc"
+  },
+  {
+    "song_id": 41,
+    "spotify_id": "1RY0VJwzxONgLTuTNMdoSq"
+  },
+  {
+    "song_id": 42,
+    "spotify_id": "325EdbgVQeYH0teOJwR4zV"
+  },
+  {
+    "song_id": 43,
+    "spotify_id": "242AJ8NifoFLzK2UKRnKVj"
+  },
+  {
+    "song_id": 44,
+    "spotify_id": "06X6w1Vkn8QvXj97nUBsKQ"
+  },
+  {
+    "song_id": 45,
+    "spotify_id": "32ZpKHVbjtK5NZDKRZkbVq"
+  },
+  {
+    "song_id": 46,
+    "spotify_id": "0fYhMttPeZwWxZtIo88U8i"
+  },
+  {
+    "song_id": 47,
+    "spotify_id": "0rmUYtY05iEgbOoeWgxL0t"
+  },
+  {
+    "song_id": 48,
+    "spotify_id": "79Bm7OPyRKmgbY3Z8nU4PJ"
+  },
+  {
+    "song_id": 49,
+    "spotify_id": "0gRIXIUFSqWqw5rXcmaf9o"
+  },
+  {
+    "song_id": 50,
+    "spotify_id": "1CUKmGTrJxjk4a0cYAxMXh"
   }
-}
-
-
+]

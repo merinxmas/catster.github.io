@@ -20,7 +20,7 @@ fetch("songs.json")
     }
 
     const iframe = document.createElement("iframe");
-    iframe.src = `https://open.spotify.com/embed/track/${song.spotifyId}`;
+    iframe.src = `https://open.spotify.com/embed/track/${song.spotify_id}`;
     iframe.allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
     iframe.frameBorder = "0";
 

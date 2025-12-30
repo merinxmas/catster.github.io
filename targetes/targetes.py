@@ -3,14 +3,14 @@ import pandas as pd
 from PIL import Image, ImageDraw, ImageFont
 
 # ---------- CONFIGURACIÓ ----------
-CSV_PATH = "dades.xlsx"
+CSV_PATH = "dades_amb_id_cantants_majuscules.xlsx"
 OUTPUT_DIR = "targetes_img"
 IMG_SIZE = 800
 BACKGROUND_COLOR = (245, 245, 245)
 TEXT_COLOR = (20, 20, 20)
 
 # Mides de font
-FONT_CANTANT_SIZE = 50
+FONT_CANTANT_SIZE = 40
 FONT_ANY_SIZE = 180
 FONT_TITOL_SIZE = 60
 
