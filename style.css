@@ -30,6 +30,10 @@ body {
   z-index: 10;
   pointer-events: none;
 
+  display: flex;              /* 🔹 CLAU */
+  align-items: center;        /* 🔹 centra vertical */
+  justify-content: center;    /* 🔹 centra horitzontal */
+
 }
 
 /* tapa info superior */
