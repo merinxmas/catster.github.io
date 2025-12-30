@@ -9,7 +9,7 @@ if (!songKey) {
 }
 
 // Carrega el JSON
-fetch("songs.json")
+fetch("songs_mapping.json")
   .then(response => response.json())
   .then(songs => {
     const song = songs[songKey];
