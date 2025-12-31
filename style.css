@@ -55,7 +55,7 @@ body {
 
 /* logo */
 .overlay img {
-  width: 48px;
+  width: 100px;
   height: auto;
   z-index: 11;
 }
