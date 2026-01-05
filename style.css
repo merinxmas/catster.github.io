@@ -60,4 +60,19 @@ body {
   z-index: 11;
 }
 
+/* logo per sobre de l'overlay-top */
+.logo-top {
+  position: absolute;
+  top: 16px;              /* separació des de dalt */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;            /* 🔥 més alt que overlay (10) */
+  pointer-events: none;
+}
+
+.logo-top img {
+  width: 100px;
+  height: auto;
+  border: 2px solid red;
+}
 
