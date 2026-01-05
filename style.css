@@ -63,7 +63,7 @@ body {
 /* logo per sobre de l'overlay-top */
 .logo-top {
   position: absolute;
-  top: 16px;              /* separació des de dalt */
+  top: 30px;              /* separació des de dalt */
   left: 50%;
   transform: translateX(-50%);
   z-index: 20;            /* 🔥 més alt que overlay (10) */
@@ -71,7 +71,7 @@ body {
 }
 
 .logo-top img {
-  width: 350px;
+  width: 500px;
   height: auto;
 }
 
